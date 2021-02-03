@@ -25,13 +25,13 @@ O backend desta aplicação é uma API REST que fornece as funcionalidades para 
 Por meio da aplicação WEB é possível se cadastrar como provedor de serviços, consultar sua agenda de atividades para qualquer dia, editar os dados do seu perfil e visualizar notificações recebidas informando sobre a reserva ou cancelamento de algum cliente.
 
 <div align="center">
-  <img alt="versão web" style="width: 800px; max-width: 100%" src=".github/screen-web.gif" />
+  <img alt="versão web" width="800px" style="max-width: 100%" src=".github/screen-web.gif" />
 </div>
 
 A aplicação mobile fornece acesso as funcionalidades para o cliente, o mesmo pode se cadastrar, consultar todos os seus agendamentos, buscar por barbeiros cadastrados, agendar um horário com um barbeiro disponível e editar os dados do seu perfil.
 
 <div align="center">
-  <img alt="versão mobile" style="width: 400px; max-width: 100%" src=".github/screen-mobile.gif" />
+  <img alt="versão mobile" width="300px" style="max-width: 100%" src=".github/screen-mobile.gif" />
 </div>
 
 ## Lista de correspondências
