@@ -1,0 +1,27 @@
+@host = http://localhost:3333
+@token = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjEyMTAzMzEzLCJleHAiOjE2MTI3MDgxMTN9.LanrDfP7Gpr75EpwA4ORk5y6BM_MMvMPusMINAR5nHM
+
+### Cria novo usuário
+POST {{host}}/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Pedro",
+  "email": "pedro@cliente.com",
+  "password": "123456789",
+  "provider": true
+}
+
+### Atualiza dados do usuário
+PUT {{host}}/users HTTP/1.1
+Authorization: {{token}}
+Content-Type: application/json
+
+{
+  "name": "Mauricio",
+  "email": "mauricio@prestador.com",
+  "oldPassword": "123456789",
+  "password": "123456789",
+  "confirmPassword": "123456789",
+  "avatarId": 1
+}

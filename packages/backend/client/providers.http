@@ -1,0 +1,6 @@
+@host = http://localhost:3333
+@token = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjEyMTAzMzEzLCJleHAiOjE2MTI3MDgxMTN9.LanrDfP7Gpr75EpwA4ORk5y6BM_MMvMPusMINAR5nHM
+
+### Lista todos os prestadores
+GET {{host}}/providers HTTP/1.1
+Authorization: {{token}}

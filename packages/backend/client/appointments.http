@@ -1,0 +1,20 @@
+@host = http://localhost:3333
+@token = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjEyMTA1MTIwLCJleHAiOjE2MTI3MDk5MjB9.P-Gc7ZyF1I1aqUBjCowB3O5Ja4fJpx9Ip9UiSIc8YO0
+
+### Consulta a lista de agendamentos
+GET {{host}}/appointments?page=1 HTTP/1.1
+Authorization: {{token}}
+
+### Cria novo agendamento
+POST {{host}}/appointments HTTP/1.1
+Authorization: {{token}}
+Content-Type: application/json
+
+{
+  "providerId": 1,
+  "date": "2021-02-01T20:00:00-03:00"
+}
+
+### Cancela um agendamento
+DELETE {{host}}/appointments/3 HTTP/1.1
+Authorization: {{token}}

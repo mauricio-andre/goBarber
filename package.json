@@ -1,0 +1,16 @@
+{
+  "name": "go-barber",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": "https://github.com/mauricio-andre/goBarber.git",
+  "author": "Mauricio Andre <mauricio.redmerski@ajmer.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@go-barber/eslint-config": "*"
+  }
+}

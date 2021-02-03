@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="114.59" width="117.68" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 117.68155 114.59414" fill="#ffffff">
+  <defs>
+    <linearGradient id="linearGradient850" y2="37.628" gradientUnits="userSpaceOnUse" x2="107.68" gradientTransform="translate(10.001 19.669)" y1="37.628" x1="-10.001">
+      <stop stop-color="#a059c1" offset="0"/>
+      <stop stop-color="#7759c1" offset="1"/>
+    </linearGradient>
+  </defs>
+  <title>logo</title>
+  <rect ry="13.199" height="114.59" width="117.68" y="-.000075322" x="0" stroke-width="0" fill="url(#linearGradient850)"/>
+  <g fill-rule="evenodd" transform="translate(13.841 23.447)">
+    <g fill-rule="nonzero" transform="translate(-676,-354)">
+      <g transform="translate(563,354)">
+        <g transform="translate(113)">
+          <path d="m41.75 10.475c0-4.5-2-10-11.25-10-4.5 0-6.25 1.25-8.5 2.75-2.5 1.75-5.75 4-12.25 4-4.25 0-7.25-0.75-9.75-1.75 2.75 6.75 9.5 15.25 26.75 15.25 9-0.25 15-5.5 15-10.25z"/>
+          <path d="m61.75 47.225c-8.75 0-14-2.75-16.75-5-2.75 2.25-8 5-16.75 5-13.75 0-18.5-18.25-19.75-23.75-1-0.5-1.75-0.75-2.75-1.25l1.25 11.5c2.25 19.5 26.25 32.5 38 33.5 11-1.25 35-14 37.5-33.5l1.25-11.75c-0.75 0.5-1.75 1-2.75 1.5-0.75 5.75-5.5 23.75-19.25 23.75z"/>
+          <path d="m68.25 3.225c-2.25-1.5-4.25-2.75-8.5-2.75-9.25 0-11.25 5.5-11.25 10 0 4.75 6 10 14.75 10 17.25 0 24-8.5 26.75-15.25-2.5 1-5.5 1.75-9.5 1.75-6.5 0.25-9.75-2-12.25-3.75z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

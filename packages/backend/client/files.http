@@ -1,0 +1,16 @@
+@host = http://localhost:3333
+@token = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjEyMTAzMzEzLCJleHAiOjE2MTI3MDgxMTN9.LanrDfP7Gpr75EpwA4ORk5y6BM_MMvMPusMINAR5nHM
+@url = ./1.jpeg
+@filename = 1.jpeg
+
+### Upload de arquivos
+POST {{host}}/files HTTP/1.1
+Authorization: {{token}}
+Content-Type: multipart/form-data; boundary=MyBoundary
+
+--MyBoundary
+Content-Disposition: form-data; name="file"; filename="{{filename}}"
+Content-Type: image/jpeg
+
+< {{url}}
+--MyBoundary--

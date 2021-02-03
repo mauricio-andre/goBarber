@@ -1,0 +1,10 @@
+@host = http://localhost:3333
+@token = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjEyMTAzMzEzLCJleHAiOjE2MTI3MDgxMTN9.LanrDfP7Gpr75EpwA4ORk5y6BM_MMvMPusMINAR5nHM
+
+### Consulta lista de notificações
+GET {{host}}/notifications HTTP/1.1
+Authorization: {{token}}
+
+### Marca notificação como lida
+PUT {{host}}/notifications/6016c9bb2f556a72ea48fabd HTTP/1.1
+Authorization: {{token}}

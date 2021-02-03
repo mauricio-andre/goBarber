@@ -1,0 +1,6 @@
+@host = http://localhost:3333
+@token = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNjEyMTA1MTIwLCJleHAiOjE2MTI3MDk5MjB9.P-Gc7ZyF1I1aqUBjCowB3O5Ja4fJpx9Ip9UiSIc8YO0
+
+### Consulta horários disponíveis do prestador
+GET {{host}}/providers/1/available?date=1612106467776 HTTP/1.1
+Authorization: {{token}}
